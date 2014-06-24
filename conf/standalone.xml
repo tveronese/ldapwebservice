@@ -236,7 +236,7 @@
                             <module-option name="java.naming.provider.url" value="ldap://localhost:389"/>
                             <module-option name="java.naming.security.authentication" value="simple"/>
                             <module-option name="bindDN" value="uid=admin,ou=groups,dc=test,dc=com"/>
-                            <module-option name="bindCredential" value="iqotoz"/>
+                            <module-option name="bindCredential" value="secret"/>
                             <module-option name="baseCtxDN" value="ou=groups,dc=teste,dc=com"/>
                             <module-option name="baseFilter" value="(uid={0})"/>
                             <module-option name="rolesCtxDN" value="ou=Roles,dc=test,dc=com"/>
